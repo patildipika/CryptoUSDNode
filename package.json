@@ -1,0 +1,22 @@
+{
+  "name": "2b-boilerplate",
+  "version": "1.0.0",
+  "description": "_We're looking at your programming ability. It must not only work, it should be maintainable._",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:portfolio": "node index.js --date=25/10/2019 --token=BTC",
+    "start:token": "node index.js --date=25/10/2019",
+    "start:latestportfolio": "node index.js --token=BTC",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await": "^0.2.6",
+    "parser": "^0.1.4",
+    "promise": "^8.1.0",
+    "request": "^2.88.2",
+    "yargs": "^17.2.1"
+  }
+}

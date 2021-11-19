@@ -1,0 +1,19 @@
+npm install request 
+npm install promise
+npm install parser
+npm install await
+npm install yargs
+
+Given no parameters, return the latest portfolio value per token in USD
+npm start
+
+Given a date and a token, return the portfolio value of that token in USD on that date
+npm run start:portfolio
+
+Given a date, return the portfolio value per token in USD on that date
+npm run start:token
+
+
+Given a token, return the latest portfolio value for that token in USD
+npm run start:latestportfolio
+
